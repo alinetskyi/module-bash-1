@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bats
+
+#set -xe
 
 @test "Default" {
   run bash ex03.sh resources/1 Ipsum is and
